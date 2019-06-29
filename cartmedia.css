@@ -144,10 +144,45 @@
         cursor: pointer;
     }
 
-    #details{
-        bottom: 143px;
+}
+
+/*              itemdetail wali media */
+
+@media screen and (max-width: 970px){
+    #icons{
+        margin-left: 5em;
     }
 }
+
+@media screen and (max-width: 900px){
+
+    #ima{
+        display: none;
+    }
+
+    #item-details{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #item-details #qty, #price,#subtotal{
+        display: none;
+    }
+
+    #rest{
+        visibility: visible;
+    }
+
+    #new-icons{
+        visibility: visible;
+        margin-left: 12em;
+        margin-top: 10em;
+    }
+
+    #items1{
+        width: 80vh;
+    }
+}
+
 
 
 
@@ -176,35 +211,10 @@
         grid-template-columns: 1fr;
     }
 
-    #details{
-        bottom: 143px;
-    }
 
 }
 
 
-/*              itemdetail wali media */
-
-@media screen and (max-width: 970px){
-    #icons{
-        margin-left: 5em;
-    }
-}
-
-@media screen and (max-width: 900px){
-
-#ima{
-    display: none;
-}
-
-    #item-details{
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    #item-details #qty, #price,#subtotal{
-        display: none;
-    }
-}
 
 
 

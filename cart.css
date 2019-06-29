@@ -227,6 +227,30 @@ li{
 
 /*                 CART DIV               */
 
+
+
+#images {
+
+    grid-template-columns:1fr   ;
+    background-color: whitesmoke;
+    /*border: 2px solid orange;*/
+    padding: 0 5em;
+    width: 100%;
+    padding-top: 2em;
+}
+
+#images h3{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 30px ;
+    font-style: normal;
+    color: rgb(28, 27, 27);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
 #ima {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -237,6 +261,18 @@ li{
     /*overflow: hidden;*/
     /*background-color: pink;*/
 }
+
+#ima h5{
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    font-style: normal;
+    color: rgb(28, 27, 27);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /*text-align: center;*/
+}
+
 
 #items{
     /*grid-area: item;*/
@@ -297,7 +333,7 @@ li{
     /*margin-bottom: 3em;*/
 }
 
-#item-details #qty p{
+#item-details #qty, #price, #subtotal p{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 16px ;
@@ -306,22 +342,12 @@ li{
     letter-spacing: 0.2em;
 }
 
-#item-details #price p{
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 16px ;
-    font-style: normal;
-    color: rgb(28, 27, 27);
-    letter-spacing: 0.2em;
+#rest{
+    visibility: hidden;
 }
 
-#item-details #subtotal p{
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 16px ;
-    font-style: normal;
-    color: rgb(28, 27, 27);
-    letter-spacing: 0.2em;
+#new-icons{
+    visibility: hidden;
 }
 
 #icons{
@@ -350,39 +376,9 @@ li{
 }
 
 
-#ima h5{
-    font-family: Montserrat, sans-serif;
-    font-weight: 550;
-    font-size: 14px;
-    font-style: normal;
-    color: rgb(28, 27, 27);
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    /*text-align: center;*/
-}
 
 
 
-#images {
-
-    grid-template-columns:1fr   ;
-    background-color: whitesmoke;
-    /*border: 2px solid orange;*/
-    padding: 0 5em;
-    width: 100vw;
-    padding-top: 2em;
-}
-
-#images h3{
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 30px ;
-    font-style: normal;
-    color: rgb(28, 27, 27);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    text-align: center;
-}
 
 
 
