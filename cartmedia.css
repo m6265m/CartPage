@@ -21,13 +21,11 @@
 
 /*              itemdetail wali media */
 
-@media screen and (max-width: 970px){
-    #icons{
-        margin-left: 5em;
-    }
-}
 
 @media screen and (max-width: 900px){
+
+
+
 
     #ima{
         display: none;
@@ -45,12 +43,13 @@
         visibility: visible;
     }
 
+    #item-details1{
+        display: grid;
+    }
     #new-icons{
         visibility: visible;
-        display: block;
-        padding-right: 1em;
-        text-align: right;
-        padding-top: 17em;
+        place-self: end right;
+        padding-bottom: 2em;
     }
 
     #items1{
@@ -224,9 +223,6 @@
 
 
 }
-
-
-
 
 
 

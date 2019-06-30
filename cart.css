@@ -361,6 +361,17 @@ li{
     letter-spacing: 0.2em;
 }
 
+#subtotal{
+    display: grid;
+}
+
+#icons{
+    place-self: end right;
+    padding-bottom: 2em;
+}
+
+
+
 #rest{
     visibility: hidden;
 }
@@ -370,12 +381,7 @@ li{
     visibility: hidden;
 }
 
-#icons{
-    display: block;
-    padding-right: 1em;
-    text-align: right;
-    /*padding-top: 17em;*/
-}
+
 
 .fa-pen{
     font-size: 20px;
