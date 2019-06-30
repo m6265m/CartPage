@@ -235,7 +235,7 @@ li{
     background-color: whitesmoke;
     /*border: 2px solid orange;*/
     padding: 0 5em;
-    width: 100%;
+    width: 100vw;
     padding-top: 2em;
 }
 
@@ -264,7 +264,7 @@ li{
 
 #ima h5{
     font-family: Montserrat, sans-serif;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 14px;
     font-style: normal;
     color: rgb(28, 27, 27);
@@ -308,7 +308,7 @@ li{
 
 #item-details #item-details1 h3{
     font-family: Montserrat, sans-serif;
-    font-weight: 550;
+    font-weight: 500;
     font-size: 18px ;
     font-style: normal;
     color: rgb(28, 27, 27);
@@ -319,26 +319,45 @@ li{
     margin-bottom: 3em;
 }
 
-#item-details #item-details1 p{
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 16px ;
-    font-style: normal;
-    color: rgb(28, 27, 27);
-    letter-spacing: 0.2em;
-    margin-left: 1em;
-    /*margin-top: 0;*/
-    /*text-transform: uppercase;*/
-    /*text-align: center;*/
-    /*margin-bottom: 3em;*/
+#item-details span{
+    color: #777;
 }
 
-#item-details #qty, #price, #subtotal p{
+#item-details #item-details1 p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: #777;
+    letter-spacing: 0.2em;
+    margin-left: 1em;
+}
+
+
+#item-details #qty p{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 16px ;
     font-style: normal;
-    color: rgb(28, 27, 27);
+    color: #777;
+    letter-spacing: 0.2em;
+}
+
+#item-details #price p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px ;
+    font-style: normal;
+    color: #777;
+    letter-spacing: 0.2em;
+}
+
+#item-details #subtotal p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px ;
+    font-style: normal;
+    color: #777;
     letter-spacing: 0.2em;
 }
 
@@ -347,18 +366,20 @@ li{
 }
 
 #new-icons{
+
     visibility: hidden;
 }
 
 #icons{
-    justify-content: right;
-    margin-top: 16em;
-    margin-left: 7em;
+    display: block;
+    padding-right: 1em;
+    text-align: right;
+    /*padding-top: 17em;*/
 }
 
 .fa-pen{
     font-size: 20px;
-    margin-right: 12px;
+    margin-right: 14px;
 }
 
 .fa-pen:hover{

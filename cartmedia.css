@@ -17,6 +17,53 @@
 }
 
 
+
+
+/*              itemdetail wali media */
+
+@media screen and (max-width: 970px){
+    #icons{
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    #ima{
+        display: none;
+    }
+
+    #item-details{
+        grid-template-columns: 1fr;
+    }
+
+    #item-details #qty, #price,#subtotal{
+        display: none;
+    }
+
+    #rest{
+        visibility: visible;
+    }
+
+    #new-icons{
+        visibility: visible;
+        display: block;
+        padding-right: 1em;
+        text-align: right;
+        padding-top: 17em;
+    }
+
+    #items1{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
 /*                     NAV WALI MEDIA              */
 
 
@@ -146,42 +193,6 @@
 
 }
 
-/*              itemdetail wali media */
-
-@media screen and (max-width: 970px){
-    #icons{
-        margin-left: 5em;
-    }
-}
-
-@media screen and (max-width: 900px){
-
-    #ima{
-        display: none;
-    }
-
-    #item-details{
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    #item-details #qty, #price,#subtotal{
-        display: none;
-    }
-
-    #rest{
-        visibility: visible;
-    }
-
-    #new-icons{
-        visibility: visible;
-        margin-left: 12em;
-        margin-top: 10em;
-    }
-
-    #items1{
-        width: 80vh;
-    }
-}
 
 
 
