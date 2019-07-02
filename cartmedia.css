@@ -39,12 +39,17 @@
         display: none;
     }
 
+    .rest{
+        visibility: visible;
+    }
+
     #rest{
         visibility: visible;
     }
 
     #item-details1{
         display: grid;
+        font-size: 12px;
     }
     #new-icons{
         visibility: visible;
@@ -55,6 +60,7 @@
     #items1{
         width: 100%;
     }
+
 }
 
 
