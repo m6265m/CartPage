@@ -248,6 +248,7 @@ li{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 
@@ -256,10 +257,11 @@ li{
     grid-template-columns: repeat(4,1fr);
     /*grid-template-areas: "item item a a a";*/
     /*grid-gap: 22px;*/
-    padding: 2em 0 0 0;
+    /*padding: 1em 0 0 0;*/
     /*border: 2px solid green;*/
     /*overflow: hidden;*/
-    /*background-color: pink;*/
+    background-color: black;
+    text-align: center;
 }
 
 #ima h5{
@@ -267,10 +269,11 @@ li{
     font-weight: 600;
     font-size: 14px;
     font-style: normal;
-    color: rgb(28, 27, 27);
+    color: bisque;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     /*text-align: center;*/
+    /*margin-bottom: 1em;*/
 }
 
 
@@ -292,17 +295,20 @@ li{
     grid-template-columns: repeat(4,1fr);
     /*grid-template-areas: "item item a a a";*/
     /*grid-gap: 22px;*/
-    padding: 2em 0 0 0;
-    /*background-color: pink;*/
-    /*border-bottom: 2px solid burlywood;*/
-    border-top: 2px solid burlywood;
-    margin-bottom: 1em;
+    /*padding: 2em 0 0 0;*/
+    /*background-color: whitesmoke;*/
+    border-bottom: 1px solid black;
+    margin-top: 1em;
+margin-bottom: 1em;
+
 }
 
+
+
 #items1{
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    /*background-color: #EDC9AF;*/
+grid-template-columns: 1fr 1fr;
+display: grid;
+/*background-color: #EDC9AF;*/
     width: 60vh;
 }
 
@@ -341,6 +347,7 @@ li{
     font-style: normal;
     color: #777;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #item-details #price p{
@@ -350,6 +357,7 @@ li{
     font-style: normal;
     color: #777;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #item-details #subtotal p{
@@ -359,6 +367,7 @@ li{
     font-style: normal;
     color: #777;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #subtotal{
@@ -405,8 +414,41 @@ li{
 }
 
 
+#checkout-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
 
+#checkout-button{
+    border: 2px solid #EDC9AF;
+    width: 32vh;
+    height: 100%;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px ;
+    font-style: normal;
+    letter-spacing: 0.2em;
 
+}
+
+#checkout-button a{
+    text-decoration: none;
+}
+
+#checkout-button:hover{
+    background-color: black;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+#checkout-button:hover p{
+    color:#EDC9AF;
+    transition: 0.5s;
+}
 
 
 
